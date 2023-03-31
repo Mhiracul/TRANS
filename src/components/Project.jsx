@@ -8,8 +8,8 @@ import "../styles/HomeStyles.css";
 
 const Project = () => {
   return (
-    <div className="py-7">
-      <div className="py-7 justify-center flex flex-col">
+    <div className="py-7 mb-24">
+      <div className="mb-24 justify-center flex flex-col">
         <div className="h-96 w-full bg-white">
           <h1 className="font-bold text-2xl text-center text-[#1C1F35]">
             Transporting Across The World
@@ -24,7 +24,7 @@ const Project = () => {
                 className="h-auto w-full object-contain"
               />
 
-              <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-64 bottom-0">
+              <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-50 bottom-0">
                 <h1 className="text-xl text-white font-bold">
                   Liquid Transportation
                 </h1>
