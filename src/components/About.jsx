@@ -19,7 +19,7 @@ const About = () => {
         }}
       ></div>
       <div className="w-screen">
-        <div className="bg-about absolute left-1/2 transform -translate-x-1/2 -translate-y-28 bg-white">
+      <div className="max-w-4xl mx-auto relative -translate-y-24 bg-white">
           <div class="gallery p-9 mx-auto max-w-4xl  grid md:grid-cols-2 gap-8">
             <div>
               <div className="flex">
