@@ -24,7 +24,7 @@ const Project = () => {
                 className="h-auto w-full object-contain"
               />
 
-              <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-50 bottom-0">
+              <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-70 bottom-0">
                 <h1 className="text-xl text-white font-bold">
                   Liquid Transportation
                 </h1>
