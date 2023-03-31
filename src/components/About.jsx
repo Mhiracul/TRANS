@@ -8,7 +8,7 @@ import "../styles/HomeStyles.css";
 
 const About = () => {
   return (
-    <div className="About">
+    <div className="">
       <div
         className="text-white flex justify-center items-center h-96 w-full  mx-auto"
         style={{
