@@ -20,7 +20,7 @@ const About = () => {
       ></div>
       <div className="w-screen">
       <div className="max-w-4xl mx-auto relative -translate-y-24 bg-white">
-          <div class="gallery p-9 mx-auto max-w-4xl  grid md:grid-cols-2 gap-8">
+          <div class="py-16 p-9 mx-auto max-w-4xl  grid md:grid-cols-2 gap-8">
             <div>
               <div className="flex">
                 <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
