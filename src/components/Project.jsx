@@ -16,7 +16,7 @@ const Project = () => {
           </h1>
         </div>
         <div className="h-96 w-full bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]">
-          <div className="grid md:grid-cols-5 gap-0 justify-center items-center p-3 transform  -translate-y-65">
+          <div className="grid md:grid-cols-5 gap-0 justify-center items-center p-3 transform  -translate-y-60">
             <div className="WriteUp p-2">
               <img
                 src={Truck}
@@ -24,7 +24,7 @@ const Project = () => {
                 className="h-auto w-full object-contain"
               />
 
-              <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-70 bottom-0">
+              <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-64 bottom-0">
                 <h1 className="text-xl text-white font-bold">
                   Liquid Transportation
                 </h1>
