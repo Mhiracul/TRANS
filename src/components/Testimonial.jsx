@@ -30,7 +30,7 @@ const Testimonial = () => {
         </div>
       </div>
       <div className=" flex justify-center items-center w-screen mx-auto max-w-4xl">
-        <div className="bgTestimony bg-[#F4F4F4] w-1/3 h-96 p-10 ">
+        <div className="bgTestimony bg-[#F4F4F4]  h-96 p-10 ">
           <div className="flex">
             <div className="flex gap-20">
               <div className="flex">
@@ -55,7 +55,7 @@ const Testimonial = () => {
             <Star />
           </div>
         </div>
-        <div className="bgTestimony bg-[#091242] w-1/3 h-96 p-10">
+        <div className="bgTestimony bg-[#091242]  h-96 p-10">
           <div className="flex">
             <div className="flex gap-20">
               <div className="flex">
