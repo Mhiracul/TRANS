@@ -4,7 +4,7 @@ import { Calender, Color, Carton, WaterShip, Button } from "../TransflowImages";
 
 const Blog = () => {
   return (
-    <div className="Blog w-full h-fit mt-7">
+    <div className="py-16 w-full h-fit mt-7">
       <div className="max-w-3xl mx-auto">
         <div className="flex items-center justify-center">
           <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] "></div>

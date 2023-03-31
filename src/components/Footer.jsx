@@ -5,14 +5,14 @@ import "../styles/HomeStyles.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#091242] text-gray-400 mt-4">
+    <footer className="bg-[#091242] text-gray-400 mt-4 ">
       <div>
         <img src={WaterContainer} alt="" />
       </div>
-      <div className="flex gap-2">
-        <div className="bg-[#ffffff40] w-40 h-20 "></div>
+      <div className="flex gap-2 ">
+        <div className="bg-[#ffffff40] w-40 h-20 py-7 "></div>
         <img src={Logo} alt="" />
-        <div className="bg-[#ffffff40] w-full h-20 ">
+        <div className="bg-[#ffffff40] w-full h-20  ">
           <div className="flex justify-between xl:gap-8 max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:py-6 lg:px-8">
             <h4 className="text-lg font-bold mb-4  text-white ml-20">Pages</h4>
             <h4 className="text-lg font-bold mb-4 text-white mr-10">Utility</h4>

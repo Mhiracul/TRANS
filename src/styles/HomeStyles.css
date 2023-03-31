@@ -6,19 +6,11 @@
 body {
   background: fixed;
 }
-.banner {
-  min-height: 80vh;
-  width: 100%;
-}
-.About {
-  min-height: 120vh;
-}
+
 .bg-about {
   width: 900px;
 }
-.gallery {
-  min-height: 70vh;
-}
+
 .PlaneImage {
   overflow: hidden;
 }

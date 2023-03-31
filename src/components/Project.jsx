@@ -8,15 +8,15 @@ import "../styles/HomeStyles.css";
 
 const Project = () => {
   return (
-    <div>
-      <div className="h-screen justify-center flex flex-col">
+    <div className="py-7 mb-24">
+      <div className="mb-24 justify-center flex flex-col">
         <div className="h-96 w-full bg-white">
           <h1 className="font-bold text-2xl text-center text-[#1C1F35]">
             Transporting Across The World
           </h1>
         </div>
         <div className="h-96 w-full bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]">
-          <div className="grid md:grid-cols-5 gap-0 justify-center items-center p-3 transform  -translate-y-72">
+          <div className="grid md:grid-cols-5 gap-0 justify-center items-center p-3 transform  -translate-y-60">
             <div className="WriteUp p-2">
               <img
                 src={Truck}

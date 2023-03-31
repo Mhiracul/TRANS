@@ -5,9 +5,10 @@ import { Icon7 } from "../TransflowImages";
 import { Airplane } from "../TransflowImages";
 import { GirlWritings } from "../TransflowImages";
 import "../styles/HomeStyles.css";
+
 const About = () => {
   return (
-    <div className="About">
+    <div className="">
       <div
         className="text-white flex justify-center items-center h-96 w-full  mx-auto"
         style={{
@@ -18,8 +19,8 @@ const About = () => {
         }}
       ></div>
       <div className="w-screen">
-        <div className="bg-about absolute left-1/2 transform -translate-x-1/2 -translate-y-28 bg-white">
-          <div class="gallery p-9 mx-auto max-w-4xl  grid md:grid-cols-2 gap-8">
+        <div className="max-w-4xl mx-auto relative -translate-y-24 bg-white">
+          <div class="py-16 p-9 mx-auto max-w-4xl  grid md:grid-cols-2 gap-8">
             <div>
               <div className="flex">
                 <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
@@ -58,7 +59,7 @@ const About = () => {
               />
             </div>
           </div>
-          <div className="mb-20 max-w-4xl mx-auto">
+          <div className="py-16 max-w-4xl mx-auto">
             <div className=" border-t-2  border-[#D4D4D4] h-px"></div>
 
             <div className="grid md:grid-cols-2 gap-8 ">

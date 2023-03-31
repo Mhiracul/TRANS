@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div
       role="banner"
-      className="banner text-white  w-full"
+      className=" text-white  w-full   mb-27 "
       style={{
         backgroundImage: `url(${Hero})`,
         backgroundPosition: "center",
@@ -17,7 +17,7 @@ const Banner = () => {
       }}
     >
       <NavigationBar />
-      <div className="max-w-4xl mx-auto mt-36 items-center">
+      <div className="max-w-4xl mx-auto  items-center py-32 mb-24">
         <div className="flex">
           <div className="h-7  w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
 

@@ -1,9 +1,13 @@
 import React from "react";
 import {
   CallUs,
+  Green,
   Mail,
   Norto,
+  Nortos,
+  Points,
   PointsOne,
+  Sand,
   Snow,
   StudiGreen,
   Time,
@@ -13,7 +17,7 @@ import "../styles/HomeStyles.css";
 const Contact = () => {
   return (
     <div className="bg-[#091242] w-full mt-9">
-      <div className="Contact max-w-2xl mx-auto flex justify-center items-center">
+      <div className="py-32 max-w-2xl mx-auto flex justify-center items-center">
         <div>
           <div className="flex ">
             <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
@@ -111,19 +115,46 @@ const Contact = () => {
           </div>
 
           <div className="grid md:grid-cols-4 gap-0 mt-20">
-            <img
-              src={StudiGreen}
-              alt=""
-              style={{ width: "300px" }}
-              className="h-auto w-full object-contain"
-            />
-            <img src={Norto} alt="" className="h-auto w-full object-contain" />
-            <img
-              src={PointsOne}
-              alt=""
-              className="h-auto w-full object-contain"
-            />
-            <img src={Snow} alt="" className="h-auto w-full object-contain" />
+            <div class="relative inline-block">
+              <img
+                src={StudiGreen}
+                alt=""
+                class="h-auto w-full object-contain bg-gradient-to-b from-[#111C54] via-[#111C54] to-[#111C54]"
+              />
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <img src={Green} alt="" class="w-28" />
+              </div>
+            </div>
+            <div class="relative inline-block">
+              <img
+                src={Norto}
+                alt=""
+                className="h-auto w-full object-contain"
+              />
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <img src={Nortos} alt="" class="w-28" />
+              </div>
+            </div>
+            <div class="relative inline-block">
+              <img
+                src={PointsOne}
+                alt=""
+                className="h-auto w-full object-contain"
+              />
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <img src={Points} alt="" class="w-28" />
+              </div>
+            </div>
+            <div class="relative inline-block">
+              <img
+                src={Snow}
+                alt=""
+                className="h-auto w-full object-contain bg-gradient-to-b from-[#111C54] via-[#111C54] to-[#111C54]"
+              />
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <img src={Sand} alt="" class="w-28" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

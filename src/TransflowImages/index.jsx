@@ -49,6 +49,10 @@ import Calender from "./Icons/Calender.svg";
 import Button from "./Icons/Button.svg";
 import Hover from "./Icons/Hover.svg";
 import Explore from "./Icons/Explore.svg";
+import Green from "./Icons/Green.svg";
+import Points from "./Icons/Points.svg";
+import Nortos from "./Icons/Nortos.svg";
+import Sand from "./Icons/Sand.svg";
 export {
   LogoHeader,
   Logo,
@@ -101,4 +105,8 @@ export {
   Button2,
   Hover,
   Explore,
+  Green,
+  Nortos,
+  Points,
+  Sand,
 };
