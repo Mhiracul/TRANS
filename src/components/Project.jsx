@@ -16,7 +16,7 @@ const Project = () => {
           </h1>
         </div>
         <div className="h-96 w-full bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]">
-          <div className="grid md:grid-cols-5 gap-0 justify-center items-center p-3 transform  -translate-y-52">
+          <div className="grid md:grid-cols-5 gap-0 justify-center items-center p-3 transform  -translate-y-65">
             <div className="WriteUp p-2">
               <img
                 src={Truck}
