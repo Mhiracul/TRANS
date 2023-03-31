@@ -13,7 +13,7 @@ import "../styles/HomeStyles.css";
 const Contact = () => {
   return (
     <div className="bg-[#091242] w-full mt-9">
-      <div className="Contact max-w-2xl mx-auto flex justify-center items-center">
+      <div className="py-32 max-w-2xl mx-auto flex justify-center items-center">
         <div>
           <div className="flex ">
             <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
