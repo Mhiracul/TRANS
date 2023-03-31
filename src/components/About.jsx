@@ -59,7 +59,7 @@ const About = () => {
               />
             </div>
           </div>
-          <div className="py-6 max-w-4xl mx-auto">
+          <div className="py-16 max-w-4xl mx-auto">
             <div className=" border-t-2  border-[#D4D4D4] h-px"></div>
 
             <div className="grid md:grid-cols-2 gap-8 ">
