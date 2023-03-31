@@ -8,8 +8,8 @@ import "../styles/HomeStyles.css";
 
 const Project = () => {
   return (
-    <div>
-      <div className="h-screen justify-center flex flex-col">
+    <div className="py-7">
+      <div className="py-7 justify-center flex flex-col">
         <div className="h-96 w-full bg-white">
           <h1 className="font-bold text-2xl text-center text-[#1C1F35]">
             Transporting Across The World
