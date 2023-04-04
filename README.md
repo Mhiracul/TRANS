@@ -1,6 +1,8 @@
 Transflow Logistics Web App
 This is a logistics web app built with React and Tailwind CSS. It allows users to manage shipments and track packages in real time.
-Deployment link is transit-f.netlify.app
+
+You can check the live page in https://transit-f.netlify.app
+
 Installation
 To install the app, follow these steps:
 
